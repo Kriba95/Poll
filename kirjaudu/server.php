@@ -47,8 +47,7 @@ if (isset($_POST['reg_user'])) {
         'error' => 'virhee'
     );
   }
-
-  
+ 
   if ($user) { // Tarkistaa käyttäjän
     if ($user['username'] === $username) {
       array_push($errors, "This username already exist!");
