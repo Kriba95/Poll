@@ -1,6 +1,7 @@
 <?php 
+
     include_once('header.php');
-?>
+?> 
 
 <section>
     <h1 class="hookaksic">Voting App for Fre</h1>

@@ -57,7 +57,7 @@ if (isset($_POST['reg_user'])) {
       array_push($errors, "Email already taken!");
     }
   }
-
+ 
 // jos ei ole käyttäjää rekisteröidy
   if (count($errors) == 0) {
     $password = md5($password_1);//muuntaa salasanan md5 salaukseen
